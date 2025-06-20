@@ -11,35 +11,40 @@
     background-color: #f9f9f9;
 
 }
+.list-item, .title {
+  color: initial !important;
+}
 title {
     font-weight: bold;
     color: #333;
 }
 
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.delete,
 .edit {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: 0.8rem;
-}
-.edit:hover {
-    background-color: #0056b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    font-size: 1rem;
 }
 
 .delete {
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
     background-color: #fb1e43;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-left: 0.8rem;
 }
-.delete:hover {
-    background-color: #67011e;
+
+.edit {
+    background-color: #007bff;
 }

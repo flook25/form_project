@@ -1,5 +1,5 @@
 import "./Item.css";
-import React from "react";
+import { IoTrash } from "react-icons/io5";
 
 export default function Item(props) {
   const { data, deleteTask, seq, editTask } = props;
@@ -9,8 +9,12 @@ export default function Item(props) {
         {seq}. {data.title}
       </p>
       <div className="button-container">
-        <button className="delete" onClick={() => deleteTask(data.id)}>Delete</button>
-        <button className="edit"   onClick={() => editTask(data.id)}>Edit</button>
+        <button className="delete" onClick={() => deleteTask(data.id)}>
+          <IoTrash size={20} />
+        </button>
+        <button className="edit" onClick={() => editTask(data.id)}>
+          Edit
+        </button>
       </div>
     </div>
   );
