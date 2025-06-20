@@ -1,0 +1,41 @@
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: #0a0a0a;
+}
+
+.submit-btn {
+    background: rgb(7, 181, 7);
+    color: white;   
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.submit-btn:hover {
+    background: rgb(0, 128, 0);
+    cursor: pointer;
+}
+.submit-btn:active {
+    background: rgb(0, 100, 0);
+}

@@ -1,0 +1,45 @@
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    padding: 0.25rem 2rem;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    background-color: #f9f9f9;
+
+}
+title {
+    font-weight: bold;
+    color: #333;
+}
+
+.edit {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0.8rem;
+}
+.edit:hover {
+    background-color: #0056b3;
+}
+
+.delete {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fb1e43;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0.8rem;
+}
+.delete:hover {
+    background-color: #67011e;
+}
